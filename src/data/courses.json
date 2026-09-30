@@ -1,0 +1,563 @@
+[
+  {
+    "id": "1",
+    "title": "Complete Web Development Bootcamp",
+    "instructor": {
+      "id": "i1",
+      "name": "Alex Morgan",
+      "avatar": "/avatars/alex.png",
+      "bio": "Full-stack developer with 10+ years experience teaching web technologies.",
+      "totalCourses": 5,
+      "averageRating": 4.9
+    },
+    "thumbnail": "/courses/webdev-thumb.jpg",
+    "price": 89.99,
+    "discountPrice": 69.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 1243,
+    "category": "Web Development",
+    "level": "Beginner",
+    "duration": "68 hours",
+    "description": "Master HTML, CSS, JavaScript, React, Node.js, MongoDB and more by building real-world projects.",
+    "whatYouWillLearn": [
+      "Build responsive websites with modern HTML5 and CSS3",
+      "Create dynamic user interfaces with React and Hooks",
+      "Develop backend APIs with Node.js, Express & MongoDB",
+      "Deploy applications to AWS and Heroku",
+      "Implement authentication and authorization"
+    ],
+    "requirements": [
+      "No prior coding experience needed",
+      "A computer with internet access",
+      "Willingness to learn"
+    ],
+    "lessons": [
+      { "id": "l1", "title": "Course Introduction", "duration": "10 min", "preview": true },
+      { "id": "l2", "title": "Setting Up Development Environment", "duration": "25 min", "preview": false },
+      { "id": "l3", "title": "HTML5 Basics", "duration": "30 min", "preview": false },
+      { "id": "l4", "title": "CSS3 Fundamentals", "duration": "40 min", "preview": false },
+      { "id": "l5", "title": "JavaScript Essentials", "duration": "55 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "user": { "name": "Jessica L.", "avatar": "/users/jessica.png" },
+        "rating": 5,
+        "comment": "Amazing course! Went from zero to building my own full-stack app.",
+        "date": "2024-03-15"
+      },
+      {
+        "id": "r2",
+        "user": { "name": "Michael T.", "avatar": "/users/michael.png" },
+        "rating": 4,
+        "comment": "Great content, but some sections felt a bit fast-paced.",
+        "date": "2024-02-28"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Data Science & Machine Learning with Python",
+    "instructor": {
+      "id": "i2",
+      "name": "Dr. Priya Sharma",
+      "avatar": "/avatars/priya.png",
+      "bio": "PhD in Data Science, former Google AI researcher.",
+      "totalCourses": 3,
+      "averageRating": 4.85
+    },
+    "thumbnail": "/courses/ds-thumb.jpg",
+    "price": 119.99,
+    "discountPrice": null,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviewCount": 876,
+    "category": "Data Science",
+    "level": "Intermediate",
+    "duration": "52 hours",
+    "description": "Learn Python, statistics, machine learning, deep learning, and deploy models with Flask and Docker.",
+    "whatYouWillLearn": [
+      "Python programming for data analysis",
+      "Statistical inference and hypothesis testing",
+      "Supervised and unsupervised machine learning algorithms",
+      "Neural networks and deep learning with TensorFlow",
+      "Model deployment and MLOps basics"
+    ],
+    "requirements": [
+      "Basic programming knowledge (any language)",
+      "High school mathematics"
+    ],
+    "lessons": [
+      { "id": "l6", "title": "Python Refresher", "duration": "20 min", "preview": true },
+      { "id": "l7", "title": "NumPy and Pandas", "duration": "35 min", "preview": false },
+      { "id": "l8", "title": "Data Visualization with Matplotlib", "duration": "30 min", "preview": false },
+      { "id": "l9", "title": "Linear Regression", "duration": "45 min", "preview": false },
+      { "id": "l10", "title": "Classification Algorithms", "duration": "50 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r3",
+        "user": { "name": "Samir K.", "avatar": "/users/samir.png" },
+        "rating": 5,
+        "comment": "The best ML course I've taken online. Very hands-on.",
+        "date": "2024-01-10"
+      },
+      {
+        "id": "r4",
+        "user": { "name": "Emily R.", "avatar": "/users/emily.png" },
+        "rating": 4,
+        "comment": "Great depth, wish there were more cloud deployment examples.",
+        "date": "2024-03-01"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Design Essentials",
+    "instructor": {
+      "id": "i3",
+      "name": "Lena Torres",
+      "avatar": "/avatars/lena.png",
+      "bio": "Senior UX Designer at a top tech agency, mentor for aspiring designers.",
+      "totalCourses": 2,
+      "averageRating": 4.7
+    },
+    "thumbnail": "/courses/ux-thumb.jpg",
+    "price": 79.99,
+    "discountPrice": 59.99,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 542,
+    "category": "Design",
+    "level": "Beginner",
+    "duration": "30 hours",
+    "description": "Learn user research, wireframing, prototyping, and usability testing using Figma and Adobe XD.",
+    "whatYouWillLearn": [
+      "Conduct user interviews and create personas",
+      "Design low-fidelity wireframes and high-fidelity mockups",
+      "Build interactive prototypes in Figma",
+      "Run usability tests and iterate based on feedback",
+      "Create a professional UX portfolio"
+    ],
+    "requirements": [
+      "No design background required",
+      "Access to Figma (free plan works)"
+    ],
+    "lessons": [
+      { "id": "l11", "title": "Introduction to UX", "duration": "12 min", "preview": true },
+      { "id": "l12", "title": "User Research Methods", "duration": "25 min", "preview": false },
+      { "id": "l13", "title": "Wireframing Basics", "duration": "20 min", "preview": false },
+      { "id": "l14", "title": "Figma for Beginners", "duration": "30 min", "preview": false },
+      { "id": "l15", "title": "Prototyping and Animation", "duration": "28 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r5",
+        "user": { "name": "Carlos M.", "avatar": "/users/carlos.png" },
+        "rating": 5,
+        "comment": "Lena explains concepts clearly and the projects are fun.",
+        "date": "2024-02-14"
+      },
+      {
+        "id": "r6",
+        "user": { "name": "Aisha P.", "avatar": "/users/aisha.png" },
+        "rating": 4,
+        "comment": "Good course, but I wanted more advanced interaction design.",
+        "date": "2024-03-05"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Cybersecurity Fundamentals",
+    "instructor": {
+      "id": "i4",
+      "name": "Marcus Reed",
+      "avatar": "/avatars/marcus.png",
+      "bio": "Certified Ethical Hacker (CEH) with 12 years in infosec.",
+      "totalCourses": 4,
+      "averageRating": 4.8
+    },
+    "thumbnail": "/courses/cyber-thumb.jpg",
+    "price": 99.99,
+    "discountPrice": null,
+    "currency": "USD",
+    "rating": 4.7,
+    "reviewCount": 389,
+    "category": "Cybersecurity",
+    "level": "Intermediate",
+    "duration": "40 hours",
+    "description": "Learn network security, cryptography, ethical hacking, and how to defend against cyber threats.",
+    "whatYouWillLearn": [
+      "Network protocols and security fundamentals",
+      "Cryptography and public key infrastructure",
+      "Ethical hacking techniques and penetration testing",
+      "Security operations and incident response",
+      "Compliance frameworks (GDPR, HIPAA, PCI-DSS)"
+    ],
+    "requirements": [
+      "Basic understanding of computer networks",
+      "Familiarity with Linux command line"
+    ],
+    "lessons": [
+      { "id": "l16", "title": "Cybersecurity Landscape", "duration": "15 min", "preview": true },
+      { "id": "l17", "title": "Networking Basics", "duration": "30 min", "preview": false },
+      { "id": "l18", "title": "Cryptography Essentials", "duration": "35 min", "preview": false },
+      { "id": "l19", "title": "Common Vulnerabilities", "duration": "40 min", "preview": false },
+      { "id": "l20", "title": "Introduction to Pen Testing", "duration": "45 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r7",
+        "user": { "name": "Diego F.", "avatar": "/users/diego.png" },
+        "rating": 5,
+        "comment": "Very practical, labs were challenging and rewarding.",
+        "date": "2024-01-20"
+      },
+      {
+        "id": "r8",
+        "user": { "name": "Sophie L.", "avatar": "/users/sophie.png" },
+        "rating": 4,
+        "comment": "Great content, wish there was more on cloud security.",
+        "date": "2024-02-10"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Digital Marketing Masterclass",
+    "instructor": {
+      "id": "i5",
+      "name": "Nina Patel",
+      "avatar": "/avatars/nina.png",
+      "bio": "Growth hacker who scaled startups to 7-figure revenues.",
+      "totalCourses": 3,
+      "averageRating": 4.6
+    },
+    "thumbnail": "/courses/marketing-thumb.jpg",
+    "price": 69.99,
+    "discountPrice": 49.99,
+    "currency": "USD",
+    "rating": 4.5,
+    "reviewCount": 612,
+    "category": "Marketing",
+    "level": "Beginner",
+    "duration": "28 hours",
+    "description": "Master SEO, SEM, social media, email marketing, and analytics to grow any business online.",
+    "whatYouWillLearn": [
+      "Search engine optimization (on-page & off-page)",
+      "Google Ads and Facebook Ads campaign management",
+      "Content marketing and storytelling",
+      "Email marketing automation and conversion optimization",
+      "Google Analytics and data-driven decision making"
+    ],
+    "requirements": [
+      "Basic computer literacy",
+      "No prior marketing experience needed"
+    ],
+    "lessons": [
+      { "id": "l21", "title": "Marketing Foundations", "duration": "10 min", "preview": true },
+      { "id": "l22", "title": "SEO Basics", "duration": "25 min", "preview": false },
+      { "id": "l23", "title": "Search Engine Marketing (SEM)", "duration": "30 min", "preview": false },
+      { "id": "l24", "title": "Social Media Marketing", "duration": "35 min", "preview": false },
+      { "id": "l25", "title": "Email Marketing & Automation", "duration": "28 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r9",
+        "user": { "name": "Oliver K.", "avatar": "/users/oliver.png" },
+        "rating": 5,
+        "comment": "Nina's energy is infectious, learned a ton!",
+        "date": "2024-03-12"
+      },
+      {
+        "id": "r10",
+        "user": { "name": "Fatima N.", "avatar": "/users/fatima.png" },
+        "rating": 4,
+        "comment": "Good overview, would love more advanced SEO tactics.",
+        "date": "2024-03-02"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Mobile App Development with Flutter",
+    "instructor": {
+      "id": "i6",
+      "name": "Luis Huang",
+      "avatar": "/avatars/luis.png",
+      "bio": "Flutter GDE, built apps for Fortune 500 companies.",
+      "totalCourses": 2,
+      "averageRating": 4.9
+    },
+    "thumbnail": "/courses/flutter-thumb.jpg",
+    "price": 94.99,
+    "discountPrice": null,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 421,
+    "category": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "36 hours",
+    "description": "Build beautiful, natively compiled applications for iOS, Android, web, and desktop from a single codebase.",
+    "whatYouWillLearn": [
+      "Dart programming language fundamentals",
+      "Flutter widgets and layout system",
+      "State management with Provider, Riverpod, and Bloc",
+      "Working with APIs, JSON, and Firebase",
+      "Publishing to App Store and Google Play"
+    ],
+    "requirements": [
+      "Basic programming experience (any language)",
+      "Computer capable of running Android Studio or Xcode"
+    ],
+    "lessons": [
+      { "id": "l26", "title": "Why Flutter?", "duration": "12 min", "preview": true },
+      { "id": "l27", "title": "Dart Syntax Tour", "duration": "20 min", "preview": false },
+      { "id": "l28", "title": "Building Your First App", "duration": "28 min", "preview": false },
+      { "id": "l29", "title": "Navigation and Routing", "duration": "25 min", "preview": false },
+      { "id": "l30", "title": "State Management Overview", "duration": "30 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r11",
+        "user": { "name": "Mei L.", "avatar": "/users/mei.png" },
+        "rating": 5,
+        "comment": "Luis explains complex topics simply, the best Flutter course.",
+        "date": "2024-02-05"
+      },
+      {
+        "id": "r12",
+        "user": { "name": "Jonas B.", "avatar": "/users/jonas.png" },
+        "rating": 4,
+        "comment": "Excellent, but I wanted a deeper dive into web desktop.",
+        "date": "2024-02-20"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Python for Everybody",
+    "instructor": {
+      "id": "i7",
+      "name": "Dr. Charles Severance",
+      "avatar": "/avatars/chuck.png",
+      "bio": "Clinical Professor at the University of Michigan, author of Python for Everybody.",
+      "totalCourses": 1,
+      "averageRating": 4.85
+    },
+    "thumbnail": "/courses/python-thumb.jpg",
+    "price": 0,
+    "discountPrice": null,
+    "currency": "USD",
+    "rating": 4.9,
+    "reviewCount": 2540,
+    "category": "Programming",
+    "level": "Beginner",
+    "duration": "20 hours",
+    "description": "Learn to program and analyze data with Python. No prior experience needed.",
+    "whatYouWillLearn": [
+      "Variables, expressions, and statements",
+      "Conditional execution and functions",
+      "Iteration and strings",
+      "Files and lists",
+      "Dictionaries and working with data"
+    ],
+    "requirements": [
+      "Basic computer literacy",
+      "Access to a web browser"
+    ],
+    "lessons": [
+      { "id": "l31", "title": "Why Program?", "duration": "8 min", "preview": true },
+      { "id": "l32", "title": "Variables and Expressions", "duration": "12 min", "preview": false },
+      { "id": "l33", "title": "Conditional Code", "duration": "15 min", "preview": false },
+      { "id": "l34", "title": "Functions", "duration": "18 min", "preview": false },
+      { "id": "l35", "title": "Loops and Iteration", "duration": "20 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r13",
+        "user": { "name": "Alejandro S.", "avatar": "/users/alejandro.png" },
+        "rating": 5,
+        "comment": "Chuck makes learning Python fun and easy.",
+        "date": "2024-01-30"
+      },
+      {
+        "id": "r14",
+        "user": { "name": "Zara H.", "avatar": "/users/zara.png" },
+        "rating": 5,
+        "comment": "Perfect intro, highly recommend for beginners.",
+        "date": "2024-03-08"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Advanced React Patterns",
+    "instructor": {
+      "id": "i8",
+      "name": "Michele Bertoli",
+      "avatar": "/avatars/michele.png",
+      "bio": "Google Engineer, React core contributor, author of testing library.",
+      "totalCourses": 2,
+      "averageRating": 4.9
+    },
+    "thumbnail": "/courses/react-thumb.jpg",
+    "price": 129.99,
+    "discountPrice": 99.99,
+    "currency": "USD",
+    "rating": 4.8,
+    "reviewCount": 735,
+    "category": "Frontend Development",
+    "level": "Advanced",
+    "duration": "24 hours",
+    "description": "Master advanced React patterns: hooks, performance, server rendering, and scalable architecture.",
+    "whatYouWillLearn": [
+      "Custom hooks and reusable logic",
+      "Performance optimization with memo and useCallback",
+      "Server-side rendering with Next.js",
+      "State management at scale (Redux, Zustand, Jotai)",
+      "Testing React applications with Jest and React Testing Library"
+    ],
+    "requirements": [
+      "Solid understanding of React fundamentals",
+      "Experience with JavaScript ES6+"
+    ],
+    "lessons": [
+      { "id": "l36", "title": "Advanced Hooks", "duration": "20 min", "preview": true },
+      { "id": "l37", "title": "Rendering Performance", "duration": "25 min", "preview": false },
+      { "id": "l38", "title": "Code Splitting and Lazy Loading", "duration": "22 min", "preview": false },
+      { "id": "l39", "title": "Server-Side Rendering Basics", "duration": "30 min", "preview": false },
+      { "id": "l40", "title": "State Management Comparison", "duration": "28 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r15",
+        "user": { "name": "Ravi P.", "avatar": "/users/ravi.png" },
+        "rating": 5,
+        "comment": "Michele's deep dive into React is unmatched.",
+        "date": "2024-02-18"
+      },
+      {
+        "id": "r16",
+        "user": { "name": "Laura G.", "avatar": "/users/laura.png" },
+        "rating": 4,
+        "comment": "Great course, wished for more on concurrent mode.",
+        "date": "2024-03-03"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Blockchain and Smart Contract Development",
+    "instructor": {
+      "id": "i9",
+      "name": "Satoshi Nakamoto Jr.",
+      "avatar": "/avatars/satoshi.png",
+      "bio": "Lead blockchain engineer at a top DeFi platform, solidity expert.",
+      "totalCourses": 1,
+      "averageRating": 4.7
+    },
+    "thumbnail": "/courses/blockchain-thumb.jpg",
+    "price": 149.99,
+    "discountPrice": null,
+    "currency": "USD",
+    "rating": 4.6,
+    "reviewCount": 298,
+    "category": "Blockchain",
+    "level": "Advanced",
+    "duration": "32 hours",
+    "description": "Learn Ethereum, Solidity, smart contract security, and build decentralized applications (dApps).",
+    "whatYouWillLearn": [
+      "Blockchain fundamentals and how Ethereum works",
+      "Solidity programming language",
+      "Building and deploying smart contracts",
+      "Security best practices and common vulnerabilities",
+      "Frontend integration with Web3.js and Ethers.js"
+    ],
+    "requirements": [
+      "Intermediate JavaScript knowledge",
+      "Understanding of promises and async/await"
+    ],
+    "lessons": [
+      { "id": "l41", "title": "Blockchain 101", "duration": "15 min", "preview": true },
+      { "id": "l42", "title": "Solidity Basics", "duration": "25 min", "preview": false },
+      { "id": "l43", "title": "Your First Smart Contract", "duration": "30 min", "preview": false },
+      { "id": "l44", "title": "Testing with Hardhat", "duration": "28 min", "preview": false },
+      { "id": "l45", "title": "Deploying to Testnet", "duration": "32 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r17",
+        "user": { "name": "Tomas V.", "avatar": "/users/tomas.png" },
+        "rating": 5,
+        "comment": "Excellent intro to Solidity, hands-on projects.",
+        "date": "2024-01-25"
+      },
+      {
+        "id": "r18",
+        "user": { "name": "Nina K.", "avatar": "/users/nina2.png" },
+        "rating": 4,
+        "comment": "Good course, would like more on Layer 2 solutions.",
+        "date": "2024-02-14"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Product Management: From Idea to Launch",
+    "instructor": {
+      "id": "i10",
+      "name": "Laura Chen",
+      "avatar": "/avatars/laura-chen.png",
+      "bio": "Senior Product Manager at a FAANG company, ex-startup founder.",
+      "totalCourses": 2,
+      "averageRating": 4.8
+    },
+    "thumbnail": "/courses/pm-thumb.jpg",
+    "price": 89.99,
+    "discountPrice": 69.99,
+    "currency": "USD",
+    "rating": 4.7,
+    "reviewCount": 511,
+    "category": "Business",
+    "level": "Intermediate",
+    "duration": "22 hours",
+    "description": "Learn the end-to-end product lifecycle: discovery, validation, development, launch, and growth.",
+    "whatYouWillLearn": [
+      "Product discovery and opportunity identification",
+      "User research and problem validation",
+      "Creating product roadmaps and prioritization frameworks",
+      "Working with engineering and design teams",
+      "Launch planning, metrics, and iteration"
+    ],
+    "requirements": [
+      "No prior product management experience needed",
+      "Basic understanding of tech products"
+    ],
+    "lessons": [
+      { "id": "l46", "title": "What is Product Management?", "duration": "10 min", "preview": true },
+      { "id": "l47", "title": "Discovery and Validation", "duration": "20 min", "preview": false },
+      { "id": "l48", "title": "Roadmapping and Prioritization", "duration": "25 min", "preview": false },
+      { "id": "l49", "title": "Execution and Collaboration", "duration": "30 min", "preview": false },
+      { "id": "l50", "title": "Launch and Post-Launch", "duration": "28 min", "preview": false }
+    ],
+    "reviews": [
+      {
+        "id": "r19",
+        "user": { "name": "Ethan B.", "avatar": "/users/ethan.png" },
+        "rating": 5,
+        "comment": "Laura's framework helped me ship my first product.",
+        "date": "2024-03-01"
+      },
+      {
+        "id": "r20",
+        "user": { "name": "Olivia D.", "avatar": "/users/olivia.png" },
+        "rating": 4,
+        "comment": "Very informative, wanted more case studies.",
+        "date": "2024-03-07"
+      }
+    ]
+  }
+]

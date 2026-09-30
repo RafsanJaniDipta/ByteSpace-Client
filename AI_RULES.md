@@ -1,0 +1,21 @@
+# Tech Stack
+- React 18 with TypeScript
+- React Router (v6) for routing; keep all route definitions in `src/App.tsx`
+- State management via React hooks (useState, useEffect, useContext) or lightweight libraries if needed
+- UI components built with shadcn/ui library (Radix UI primitives + Tailwind CSS)
+- Styling exclusively with Tailwind CSS utility classes
+- Icons sourced from `lucide-react` package
+- Source code organization:
+  - Pages: `src/pages/`
+  - Reusable components: `src/components/`
+  - Main landing page: `src/pages/Index.tsx`
+- Development workflow:
+  - Always update `src/pages/Index.tsx` (or relevant page) to include new components so they are visible
+  - Do not modify existing shadcn/ui component files; create wrapper or new components if customization is required
+  - Use TypeScript strict mode; aim for zero type errors
+  - Keep file sizes small and focused; prefer composition over large monolithic components
+- Additional guidelines:
+  - Use `lucide-react` icons for visual consistency
+  - Leverage Tailwind's responsive prefixes (sm:, md:, lg:, xl:) for adaptive layouts
+  - Follow accessibility best practices (ARIA labels, keyboard navigation) when building custom components
+  - Avoid direct DOM manipulation; rely on React's declarative rendering
