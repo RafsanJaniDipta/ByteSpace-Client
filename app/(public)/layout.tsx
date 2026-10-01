@@ -1,6 +1,6 @@
 import { Navbar } from "@/components/shared/Navbar";
 import LogoBanner from "@/components/home/logoBanner";
-import TabCategories from "@/components/home/tabCategories";
+import { TabCategories } from "@/components/home/tabCategories";
 export default function PublicLayout({
   children,
 }: {
