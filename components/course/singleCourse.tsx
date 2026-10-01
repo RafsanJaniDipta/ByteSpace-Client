@@ -62,20 +62,30 @@ export function SingleCourse({ course }: SingleCourseProps) {
 
         {/* Student avatars + count */}
         <div className="flex items-center gap-2 mb-3">
+          <div className="bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded-3xl">
+            Beginner
+          </div>
           <div className="flex -space-x-2">
-            {[1, 2, 3, 4].map((i) => (
+            {[1, 2, 3, 4, 26].map((i) => (
               <div
                 key={i}
-                className="w-6 h-6 rounded-full border-2 border-white flex items-center justify-center text-xs text-white"
+                className="w-8 h-8 rounded-full border-2 border-white flex items-center justify-center text-xs text-black font-medium"
                 style={{
-                  backgroundColor: i === 1 ? "#EF4444" : i === 2 ? "#3B82F6" : i === 3 ? "#10B981" : "#F59E0B",
-                }}
-              >
+                  backgroundColor:
+                    i === 1
+                      ? "#EF4444"
+                      : i === 2
+                        ? "#3B82F6"
+                        : i === 3
+                          ? "#10B981"
+                          : i === 4
+                            ? "#F59E0B"
+                            : "#D4FB20",
+                }}>
                 {i}
               </div>
             ))}
           </div>
-          <span className="text-xs text-gray-500">26+</span>
         </div>
 
         {/* Price */}

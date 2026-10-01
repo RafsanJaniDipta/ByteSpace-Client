@@ -1,9 +1,9 @@
-import { TabCategories } from "@/components/home/tabCategories";
+import Hero from "@/components/home/hero";
 
 export default function HomeMain() {
   return (
     <div>
-      <TabCategories />
+      <Hero />
     </div>
   );
 }

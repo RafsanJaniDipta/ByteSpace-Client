@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { CourseGroup } from "@/components/course/courseGroup";
 
@@ -7,7 +8,8 @@ const courses = [
     id: "1",
     title: "Learn Figma from Basic",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -19,7 +21,8 @@ const courses = [
     id: "2",
     title: "Build Digital Asset",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -31,7 +34,8 @@ const courses = [
     id: "3",
     title: "the Power of Big Data",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1551288049-bebda4e370fa?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1551288049-bebda4e370fa?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -43,7 +47,8 @@ const courses = [
     id: "4",
     title: "Balancing Productivity and...",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -55,7 +60,8 @@ const courses = [
     id: "5",
     title: "Mastering Money Manage...",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -67,7 +73,8 @@ const courses = [
     id: "6",
     title: "From Idea to Startup Succ...",
     instructor: "purepearl studio",
-    thumbnail: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400",
+    thumbnail:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400",
     lessons: 17,
     duration: "2 hours 16 mins",
     comments: 59,
@@ -112,8 +119,7 @@ function TabButton({ label, isActive, onClick }: TabButtonProps) {
         isActive
           ? "bg-[#CCFF33] text-black"
           : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-      }`}
-    >
+      }`}>
       {label}
     </button>
   );
@@ -131,16 +137,17 @@ export function TabCategories() {
             Discover Your Passion, Build Your Skills
           </h1>
           <p className="text-gray-500 max-w-2xl mx-auto">
-            At Bytespace Courses, we bring you closer to life-changing knowledge.
-            Explore a variety of courses across different fields, from technology
-            to the arts, and make a difference in your career and life.
+            At Bytespace Courses, we bring you closer to life-changing
+            knowledge. Explore a variety of courses across different fields,
+            from technology to the arts, and make a difference in your career
+            and life.
           </p>
         </div>
 
         {/* Category Tabs */}
         <div className="relative mb-10">
           <div className="overflow-x-auto pb-4">
-            <div className="inline-flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               {categories.map((category) => (
                 <TabButton
                   key={category}
